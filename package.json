@@ -1,0 +1,19 @@
+{
+  "name": "cli-repeat",
+  "version": "1.0.0",
+  "description": "Repeat a command at a given interval, and aggreate its output",
+  "author": "Tabcorp Digital Team",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "repeat": "index.js"
+  },
+  "dependencies": {
+    "babar": "0.0.3",
+    "charm": "~1.0.0",
+    "fixedqueue": "0.0.1",
+    "split": "~0.3.1",
+    "optimist": "~0.6.1",
+    "ms": "~0.6.2"
+  }
+}
