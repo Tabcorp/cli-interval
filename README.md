@@ -1,15 +1,15 @@
-# repeat
+# interval
 
 Repeat a command at a given interval, and aggregate its output.
 
 ```bash
-npm install -g cli-repeat
+npm install -g cli-interval
 ```
 
 The following example outputs a random number to `stdout` every second.
 
 ```bash
-repeat -t 1s "echo \$RANDOM"
+interval -t 1s "echo \$RANDOM"
 ```
 
 It will aggregates both `stdout` and `stderr` over time, and pipes them into its respective outputs.
