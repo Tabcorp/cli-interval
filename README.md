@@ -2,6 +2,10 @@
 
 Repeat a command at a given interval, and aggregate its output.
 
+[![NPM](http://img.shields.io/npm/v/cli-interval.svg?style=flat)](https://npmjs.org/package/cli-interval)
+[![License](http://img.shields.io/npm/l/cli-interval.svg?style=flat)](https://github.com/TabDigital/cli-interval)
+[![Dependencies](http://img.shields.io/david/TabDigital/cli-interval.svg?style=flat)](https://david-dm.org/TabDigital/cli-interval)
+
 ```bash
 npm install -g cli-interval
 ```
